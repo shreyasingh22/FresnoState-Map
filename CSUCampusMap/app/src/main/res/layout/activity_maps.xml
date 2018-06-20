@@ -1,0 +1,48 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name="com.google.android.gms.maps.SupportMapFragment">
+
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:clickable = "true"
+        android:name="com.google.android.gms.maps.MapFragment">
+
+        <RelativeLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent">
+
+            <com.quinny898.library.persistentsearch.SearchBox
+                android:layout_width="wrap_content"
+                android:id="@+id/searchbox"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" />
+            <ImageView
+                android:id="@+id/imv_direction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icdirection"
+                android:layout_below="@id/searchbox"
+                android:layout_margin="@dimen/pad_10dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+
+
+    </fragment>
+
+</RelativeLayout>
+
+
+

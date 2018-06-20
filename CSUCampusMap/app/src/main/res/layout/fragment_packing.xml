@@ -1,0 +1,36 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="100dp"
+    tools:context="com.csu.campusmap.fragment.PackingFragment">
+
+    <Button
+        android:id="@+id/btn_yellow"
+        android:background="@drawable/yellow_btn"
+        style="@style/MyButton"
+        android:layout_marginBottom="20dp"
+        android:text="YELLOW"/>
+
+    <Button
+        android:id="@+id/btn_green"
+        android:background="@drawable/green_btn"
+        style="@style/MyButton"
+        android:text="GREEN"/>
+
+    <Button
+        android:id="@+id/btn_metered"
+        android:background="@drawable/purple_btn"
+        style="@style/MyButton"
+        android:text="METERED"/>
+
+    <Button
+        android:id="@+id/btn_thirty"
+        android:background="@drawable/blue_btn"
+        style="@style/MyButton"
+        android:text="30 MINUTES"/>
+</LinearLayout>

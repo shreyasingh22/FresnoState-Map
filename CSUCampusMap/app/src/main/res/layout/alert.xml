@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/pad_20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/pad_10dp"
+        android:padding="@dimen/pad_15dp"
+        android:layout_marginTop="@dimen/pad_20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Distance :"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textsize"/>
+
+
+        <TextView
+            android:id="@+id/txv_distance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="20min"
+            android:fontFamily="serif"
+            android:textSize="@dimen/pad_20dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/pad_10dp"
+        android:padding="@dimen/pad_15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="For car :"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textsize"/>
+
+
+        <TextView
+            android:id="@+id/txv_car"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="20min"
+            android:fontFamily="serif"
+            android:textSize="@dimen/pad_20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/pad_15dp"
+        android:layout_margin="@dimen/pad_10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="For walk :"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textsize"/>
+
+
+        <TextView
+            android:id="@+id/txv_walk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="20min"
+            android:fontFamily="serif"
+            android:textSize="@dimen/pad_20dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
